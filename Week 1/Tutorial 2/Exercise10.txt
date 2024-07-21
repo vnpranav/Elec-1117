@@ -1,0 +1,5 @@
+using windows character map
+ascii
+π = alt 227
+Ñ
+8 bit ascii

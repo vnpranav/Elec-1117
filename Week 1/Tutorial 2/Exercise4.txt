@@ -1,0 +1,20 @@
+correct the following c expressions according to their algebra expressions
+1. algebra : (2)(3) + (4)(5)
+   incorrect c : (2)(3) + (4)(5)
+   correct c: (2)*(3) + (4)*(5)
+
+2. algebra : (6+18)/2
+   incorrect c : 6 + 18 / 2
+   correct c : (6 + 18 / 2)
+
+3. algebra : 4.5 / (12.2 - 3.1)
+   incorrect c : 4.5 / 12.2 - 3.1
+   correct c : 4.5 / (12.2 - 3.1)
+
+4. algebra : 4.6(3.0 + 14.9)
+   incorrect c : 4.6(3.0 + 14.9)
+   correct c : 4.6 * (3.0 + 14.9)
+
+5. algebra : (12.1 + 8.9)(15.3 - 3.8)
+   incorrect c : (12.1 + 8.9)(15.3 - 3.8)
+   correct c : (12.1 + 8.9) * (15.3 -3.8)

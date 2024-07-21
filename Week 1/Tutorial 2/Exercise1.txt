@@ -1,0 +1,7 @@
+Determine the data types for the following data:
+1. average of four grades: float (sum may not be exactly divisible by 4)
+2. number of days in a month: short int / unsigned short int (number cannot be negative)
+3. the length of the golden gate bridge: unsigned short int (length only has magnitude)
+4. the numbers in a state lottery : unsigned short int (count of numbers cannot be negative)
+5. distance from brooklyn to newark : unsigned int (distance long and always +ve)
+6. names in a mailing list: char (names of made up of characters)

@@ -1,0 +1,12 @@
+evaluate the following mixed mode expressions and list the data type of the result. In evaluating the expressions be aware of the data types of all intermediate calculations
+a. 10.0 + 15/2 + 4.3 : double
+b. 10.0 + 15.0 / 2 + 4.3 : double
+c. 3.0 *4 / 6 + 6: double
+d. 3*4.0 /6 + 6: double
+e. 20.0 - 2 / 6 + 3: double
+f. 10 + 17 / 3 * 4 :int 
+g. 10 + 17/3. + 4: double
+h. 3.0*4%6 + 6 : double
+i. 10 + 17 % 3 + 4:int
+
+
