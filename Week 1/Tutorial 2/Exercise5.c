@@ -1,4 +1,5 @@
 // determine the value of the following integer expressions
+#include <stdio.h>
 int main(void){
    int result;
    result = 3 + 4 *6;

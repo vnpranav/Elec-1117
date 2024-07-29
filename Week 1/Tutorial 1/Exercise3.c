@@ -14,13 +14,10 @@
 
 #include <stdio.h>
 int main (void){
-   // put opening curly bracket
    int sum;
-   // compute result
+   /*COMPUTE RESULT */
    sum = 25 + 37 - 19;
-   // do not forget semicolon
-   // display result
-   // comments should have both start and end backslashes
+   /*DISPLAY RESULT */
    printf("The sum is %i\n", sum);
    return 0;
 }

@@ -6,7 +6,7 @@ d. 3*4.0 /6 + 6: double
 e. 20.0 - 2 / 6 + 3: double
 f. 10 + 17 / 3 * 4 :int 
 g. 10 + 17/3. + 4: double
-h. 3.0*4%6 + 6 : double
+h. 3.0*4%6 + 6 : double (error modulo operator does not support double)
 i. 10 + 17 % 3 + 4:int
 
 
