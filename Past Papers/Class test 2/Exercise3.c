@@ -14,7 +14,7 @@ void main(void){
    int b[SIZE][SIZE] = {
       {2,2,2},
       {2,2,2},
-      {2,2,2}
+      {2,2,4}
    };
 
    sum_ptr = add_matrices(a, b);
