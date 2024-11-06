@@ -11,3 +11,4 @@ void main(void){
    }else{
       printf("Odd number\n");
    }
+}
