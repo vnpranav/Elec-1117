@@ -1,7 +1,24 @@
 #include <stdio.h>
+#include <math.h>
+
+float calculateCharges(float hours){
+   float charge;
+
+   if (hours == 24){
+         charge = 10.0;
+      } else {
+         if (hours <= 3){
+            charge = 2.0;
+         } else {
+            charge = 2 + ((ceil(hours - 3) * 0.5));
+         }
+      }
+
+   return charge;
+}
 
 void main(void){
-   float hours , hour, charge, total_hours, total_price;
+   float hours , charge, total_hours, total_price;
    int addtional = 0;
 
    total_hours = 0;
@@ -12,21 +29,7 @@ void main(void){
       printf("Enter hours parked: ");
       scanf("%f", &hours);
 
-      if (hours == 24){
-         charge = 10.0;
-      } else {
-         if (hours <= 3){
-            charge = 2.0;
-         } else {
-            charge = 2.0;
-            hour = hours - 3;
-            while (hour > 0){
-               addtional ++;
-               charge = 2 +  0.5 * addtional;
-               hour--;
-            }
-         }
-      }
+      charge = calculateCharges(hours);
 
       total_price += charge;
       total_hours += hours;
