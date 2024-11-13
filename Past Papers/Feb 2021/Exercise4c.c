@@ -28,7 +28,7 @@ void readinput(int row, int col, int arr[ROW][COL]){
    for (int i = 0; i < row; i++){
       for (int j = 0; j < col; j++){
          // random integers between 1 and 0
-         arr[i][j] = rand() % (1 - 0 + 1) + 0;
+         arr[i][j] = rand() % 2;
       }
    }
 }

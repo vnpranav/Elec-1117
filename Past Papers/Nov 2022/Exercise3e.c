@@ -19,7 +19,6 @@ float calculateCharges(float hours){
 
 void main(void){
    float hours , charge, total_hours, total_price;
-   int addtional = 0;
 
    total_hours = 0;
    total_price = 0;
