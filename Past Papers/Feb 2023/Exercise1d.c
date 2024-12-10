@@ -23,6 +23,7 @@ void main(void){
       result = num1 * num2;
       break;
    case '/':
+      // num == 0
       result = num1 / num2;
       break;
    default:
